@@ -1,0 +1,71 @@
+﻿.toolTip {
+    top: -100px;
+    /*Stop seeing initial position*/
+    position: absolute;
+    text-align: center;
+    padding: 2px;
+    font: 50px Calibri, sans-serif;
+    background: none;
+    border: 10px;
+    border-radius: 8px;
+    pointer-events: none;
+    display: inline-block;
+    color: rgb(0, 255, 218);
+}
+
+.text {
+    font: 34px Calibri bold, sans-serif;
+    stroke: none;
+    color: rgb(26, 106, 236);
+    text-anchor: middle;
+    fill: #abc;
+}
+
+.outerb {
+    font: 30px Calibri bold, sans-serif;
+    stroke: none;
+    text-anchor: middle;
+    fill: rgba(47, 22, 33, 0.81);
+}
+
+.clocktext {
+    font: 17px Calibri bold, sans-serif;
+    fill: rgb(64, 199, 10);
+    text-anchor: middle;
+}
+
+.clockface {
+    fill: url(#grad);
+}
+
+.left {
+    stop-color: #1f166d;
+}
+
+.right {
+    stop-color: rgba(16, 15, 15, 0.95);
+}
+
+.clockfacem {
+    stroke: none;
+    fill: rgba(255, 0, 0, 0.5);
+}
+
+.handf {
+    stroke: rgba(235, 181, 16, 0.87);
+    stroke-width: 3;
+    fill: none;
+}
+
+.handm {
+    fill: rgba(64, 231, 22, 0.9);
+}
+
+.arcs {
+    stroke: none;
+    fill: #7b6969
+}
+
+.ticks {
+    stroke: rgb(7, 223, 77);
+}
